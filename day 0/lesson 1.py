@@ -1,0 +1,73 @@
+from turtle import *
+#drawing a house 
+speed(30)
+width("7")
+color("green")
+forward(200)
+left(90)
+forward(200)
+left(90)
+forward(200)
+left(90)
+forward(200)
+#end of square
+
+#making a door
+
+left(90)
+forward(70)
+color("blue")
+begin_fill()
+left(90)
+forward(120)
+right(90)
+forward(60)
+right(90)
+forward(120)
+end_fill()
+
+#making roof
+penup()
+goto(200, 200)
+pendown()
+
+color("red")
+begin_fill()
+right(150)
+forward(200)
+left(120)
+forward(200)
+end_fill()
+
+#making windows
+penup()
+goto(25,80)
+pendown()
+color("purple")
+begin_fill()
+right(150)
+forward(40)
+right(90)
+forward(30)
+right(90)
+forward(40)
+right(90)
+forward(30)
+end_fill()
+
+penup()
+color("purple")
+begin_fill()
+goto(145, 80)
+pendown()
+right(90)
+forward(40)
+right(90)
+forward(30)
+right(90)
+forward(40)
+right(90)
+forward(30)
+end_fill()
+
+exitonclick()
