@@ -1,0 +1,22 @@
+<!--label-თეგი არის ერთგვერი ეტიკეტი და ფორმაში გამოიყენება იმისთვის რომ მივუთითოთ რომელ ნაწილში რა ჩავწეროთ-->
+<!--label-ს შესაბამის inputs ვუკავშრებთ for ატრიბუტის დახმარებით რომელშიც ვწერთ input თეგის id-ს -->
+<!--text-ამ ტიპის inputში იწერება ტექსტი   password-იწერება პაროლი   date-თარიღი  number-მხოლოდ ციფრები   email-ემაილი-->
+<!--ყველა input ისთვის თავისი label იმიტომ არის კარგი პრაქტიკა რომ მომხმარებელისთვის უფრო გასაგები იქნება რომელ inputში რა უნდა ჩაწეროს -->
+<!--ჩვეულებრივი submit ღილაკისთვის ჩვენთვის სასურველი დიზაინის მიცემა არ შეგვიძლია ხოლო custom submit ღილაკისთვის შეგვიძლია-->
+<html>
+    <head></head>
+    <body>
+        <form>
+            <label for="user_email">enter your email</label>
+            <br>
+            <input type="email" name="user_email" id="user_email" required>
+            <br>
+            <br>
+            <label for="password">enter password</label>
+            <br>
+            <input type="password" name="password" id="password" required>
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
