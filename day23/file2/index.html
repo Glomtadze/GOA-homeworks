@@ -1,0 +1,21 @@
+<!-- 5) შექმენით ვიდეო ან აუდიო ელემენტი, სადაც გამოიყენებთ <source> ტეგს:
+     მოთხოვნები:
+    - მინიმუმ 2 განსხვავებული ფორმატი (მაგ: mp4 + webm ან mp3 + ogg)
+    - ახსენით რატომ ვიყენებთ `<source>` ტეგს -->
+<html>
+
+<head></head>
+
+<body>
+    <!--source-არის წყარო ანუ საიდანაც მივიღებთ-->
+    <video controls width="450" loop>
+        <source src="/assets/video/spman mp4.mp4" type="video/mp4">
+    </video>
+    <video controls width="450" loop>
+        <source src="/assets/video/spman wbm.webm" type="video/webm">
+    </video>
+    <!-- 6) აქსენით შემდეგი ატრიბუტები: controls, autoplay, muted, loop -->
+    <!--controls-ამატებს მართვის ელემენტებს იმისთვის რომ მართვა შეგვეძლოს  autoplay-ვიდეო ავტომატურად იწყებს ამ ატრიბუტის საშუალებით  muted-მუსიკა ან ვიდეოს ხმას უთიშავს  loop-ამ ატრიბუტის საშუალებით დამთავრების შემდეგ თავიდან იწყება ვიდეო ან მუსიკა-->
+</body>
+
+</html>
