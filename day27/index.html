@@ -1,0 +1,88 @@
+<!-- 1) რისთვის გვჭირდება style ატრიბუტი? -->
+<!-- style  ატრიბუტი გამოიყენებება inline css ისთვის -->
+
+<!-- 2) ჩამოთვალეთ და განმარტეთ ნასწავლი property-ები -->
+<!-- color-ტექსტის ფერი font-size-ტექსტის ზომა text-align-თეგის ადგილის გასასწორებლად border-საზღვრის გასაკეთებლად font-family-შრიფტის შესაცვლელად-->
+
+<!-- 3) ახსენით რა არის განსხვავება inline და block ელემენტებს შორის? -->
+<!-- block ელემენტები მთლიან ხაზს იკავებენ მაგალითად h1 ხოლო inline ელემენტები მხოლოდ საჭირო ადგილს -->
+
+<html>
+
+<head>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <!-- 4) შექმენით პარაგრამი, რომელსაც ექნება წითელი ფერი, ტექსტის ზომა 32px. -->
+
+        <p style="color: red; font-size: 32px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            aspernatur consectetur alias velit? Consequuntur distinctio assumenda aspernatur asperiores deserunt iure
+            repudiandae veritatis, impedit dolorem. A temporibus ducimus illum veniam. Impedit.</p>
+
+        <!-- 5) შექმენით h1 ტექსტი იყოს ლურჯი, ზომაში 50px, იყოს ცენტრში -->
+        <h1 style="color: blue; font-size: 50px; text-align: center;">welcome</h1>
+
+        <!-- 6) შექმენით p ტექსტი იყოს ნაცრისფერი, ბორდერი ყვითელი, განლაგება მარჯვნივ -->
+        <p style="color: gray; text-align: right; border: 10px solid yellow;">Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Perferendis magnam asperiores sunt doloribus quo dicta accusantium maiores omnis porro
+            atque ipsa, earum, iste id dolor nemo corrupti quos quis doloremque!</p>
+
+        <!-- 7) ახსენით როდის გამოიყენება div ტეგი? -->
+        <!-- div თეგი გამოიყენება ელემენტების დაჯგუფებისთვის -->
+
+        <!-- 8) შექმენი დივი რომელიც გასტილე საკუთარი გემოვნებით(ფერი, ბორდერი, ფონტის ზომა). 
+        - მის შიგნით შექმენი 6 პარაგრაფი. ამ 6 პარაგრაფიდან ყოველი მეორეს ტექსტი განალაგე მარჯვნივ -->
+        <div style="color: red; font-size: 15px;  ">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem perferendis quidem labore nemo eius
+                molestias? Alias minima saepe possimus distinctio velit sed similique quia, qui temporibus, natus vel
+                fugit animi.</p>
+            <p style="text-align: right;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro adipisci, sunt
+                nisi corrupti omnis magni, dicta saepe repellat maiores rerum commodi aliquid perferendis ut iste
+                consectetur excepturi ullam libero neque!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut beatae consequuntur eius dignissimos, eaque
+                repellendus porro sequi hic id sapiente vel dolore voluptatum. Corporis repellat animi adipisci quisquam
+                temporibus laboriosam.</p>
+            <p style="text-align: right;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt unde,
+                necessitatibus neque maxime repellendus suscipit? Modi, ad placeat magni, quaerat consequatur aliquid
+                atque, beatae aspernatur pariatur illum nihil tempore repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sequi sint eveniet cum quo eius, unde hic
+                consequuntur similique, nam debitis, consectetur ab deserunt atque maiores. Temporibus porro ab enim.
+            </p>
+            <p style="text-align: right;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab reprehenderit
+                molestiae laboriosam, ut id et error ad similique earum facilis tempore quaerat veritatis eum, amet
+                aliquid perspiciatis necessitatibus nesciunt hic?</p>
+        </div>
+        <!-- 9) შექმენი დაულაგებელი სია(მიეცი ბორდერი), რომელსაც ექნება 7 ელემენტი:
+  - თითოეულ ელემენტს ქონდეს განსხვავებული ფერი
+  - გასტილე ელემენტები ისე, რომ ყველაზე ზედა ელემენტს ქონდეს ყველაზე დიდი ფონტის ზომა, ხოლო ყველა შემდეგს 2px-ით ნაკლები წინაზე -->
+        <ul style="border: solid 5px red;">
+            <li style="color: aqua; font-size: 26px;">first</li>
+            <li style="color: green; font-size: 24px;">second</li>
+            <li style="color: gray; font-size: 22px;">third</li>
+            <li style="color: blueviolet; font-size: 20px;">fourth</li>
+            <li style="color: blue; font-size: 18px;">fifth</li>
+            <li style="color: burlywood; font-size: 16px;">sixth</li>
+            <li style="color: lawngreen; font-size: 14px;">seventh</li>
+        </ul>
+    <!-- 10) შექმენი დალაგებული სია(მიეცი ბორდერი), რომელსაც ექნება 7 ელემენტი:
+  - თითოეულ ელემენტს ქონდეს განსხვავებული ფერი
+  - გასტილე ელემენტები ისე, რომ ყველაზე ზედა ელემენტს ქონდეს ყველაზე პატარა ფონტის ზომა, ხოლო ყველა შემდეგს 2px-ით მეტი წინაზე -->
+        <ol style="border: solid 5px red;">
+            <li style="color: aqua; font-size: 16px;">first</li>
+            <li style="color: green; font-size: 18px;">second</li>
+            <li style="color: gray; font-size: 20px;">third</li>
+            <li style="color: blueviolet; font-size: 22px;">fourth</li>
+            <li style="color: blue; font-size: 24px;">fifth</li>
+            <li style="color: burlywood; font-size: 26px;">sixth</li>
+            <li style="color: lawngreen; font-size: 28px;">seventh</li>
+        </ol>
+
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
