@@ -1,0 +1,180 @@
+<!-- 1) ახსენით რა განსხვავებაა short-hand და loong-hand property-ებს შორის. მოიყვანეთ მაგალითი -->
+<!-- short-hand-არის შემოკლებული გზა
+long-hand-არის გზა როცა ყველა სტილი ცალცალკე იწერება -->
+<!-- 2) რისთვის გამოიყენება `<table>` ტეგი? -->
+<!-- table თეგი გამოიყენება ცხრილების გასაკეთებლად -->
+<!-- 3) ახსენით ტეგები:
+  - td-table data-ცხრილის ინფორმაცია
+  - th-table header-ცხრილის სათაური
+  - tr-table row-ცხრილის ხაზი -->
+<!-- 4) რა განსხვავებაა td და th ტეგებს შორის
+  th გამოიყენება ცხრილში მხოლოდ ერთ ხაზში და ის არის უფრო გამოკვეთილად დაწერილი -->
+<!-- 5) ახსენით რატომ არის მნიშვნელოვანი ცხრილის სწორად დალაგება რიგებად და სვეტებად.
+მნიშვნელოვანი არის იმიტომ რომ ინფორმაცია იყოს უფრო გასაგები და ადვილად მისაგნები -->
+<!-- 6) შექმენით ცხრილი 2 რიგით და 3 სვეტით. მიეცით border; ტექსტი გაასწორეთ ცენტრში; ფონტის ზომა იყოს 24px -->
+<html>
+<head></head>
+<body>
+    <table style="border: solid 2px black; font-size: 24px;">
+        <tr>
+            <th style="border: solid 2px black; text-align: center;">name</th>
+            <th style="border: solid 2px black; text-align: center;">suremame</th>
+            <th style="border: solid 2px black; text-align: center;">age</th>
+        </tr>
+        <tr>
+            <td style="border: solid 2px black; text-align: center;">gio</td>
+            <td style="border: solid 2px black; text-align: center;">lomtadze</td>
+            <td style="border: solid 2px black; text-align: center;">16</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <!-- 7) შექმენით მოსწავლეების ცხრილი შემდეგი სვეტებით: სახელი, გვარი და ასაკი. დაამატეთ მინიმუმ 3 მოსწავლე
+  - header იყოს ლურჯი
+  - ტექსტი იყოს თეთრი
+  - border იყოს შავი -->
+    <table style="border: solid 2px black; font-size: 24px;">
+        <tr style="background-color: blue;">
+            <th style="border: solid 2px black; color: white;">name</th>
+            <th style="border: solid 2px black; color: white;">suremame</th>
+            <th style="border: solid 2px black; color: white;">age</th>
+        </tr>
+        <tr>
+            <td style="border: solid 2px black;">gio</td>
+            <td style="border: solid 2px black;">lomtadze</td>
+            <td style="border: solid 2px black;">16</td>
+        </tr>
+        <tr>
+            <td style="border: solid 2px black;">nika</td>
+            <td style="border: solid 2px black;">fxakadze</td>
+            <td style="border: solid 2px black;">15</td>
+        </tr>
+        <tr>
+            <td style="border: solid 2px black;">luka</td>
+            <td style="border: solid 2px black;">iobidze</td>
+            <td style="border: solid 2px black;">17</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <!-- 8) შექმენით 4x4 ცხრილი.
+  - ყველა უჯრას ქონდეს განსხვავებული ფერი
+  - ტექსტი იყოს ცენტრში
+  - ფონტი იყოს Arial -->
+    <table style="border: solid 2px black; font-size: 24px;">
+        <tr>
+            <th style="background-color: blue; text-align: center; font-family: Arial ;">first</th>
+            <th style="background-color: antiquewhite; text-align:center;font-family: Arial;">second</th>
+            <th style="background-color: blueviolet; text-align:center;font-family: Arial;">third</th>
+            <th style="background-color: brown; text-align:center;font-family: Arial;">forth</th>
+        </tr>
+        <tr>
+            <td style="background-color: burlywood; text-align:center;font-family: Arial;">first</td>
+            <td style="background-color: olive; text-align:center;font-family: Arial;">second</td>
+            <td style="background-color: indianred; text-align:center;font-family: Arial;">third</td>
+            <td style="background-color: thistle; text-align:center;font-family: Arial;">forth</td>
+        </tr>
+        <tr>
+            <td style="background-color: cadetblue; text-align:center;font-family: Arial;">first</td>
+            <td style="background-color: chartreuse;text-align:center;font-family: Arial;">second</td>
+            <td style="background-color: cornflowerblue; text-align:center;font-family: Arial;">third</td>
+            <td style="background-color: cyan; text-align:center;font-family: Arial;">forth</td>
+        </tr>
+        <tr>
+            <td style="background-color: yellowgreen;text-align:center;font-family: Arial;">first</td>
+            <td style="background-color: tan; text-align:center;font-family: Arial;">second</td>
+            <td style="background-color: tomato; text-align:center;font-family: Arial;">third</td>
+            <td style="background-color: darkmagenta;text-align:center;font-family: Arial;">forth</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <!-- 9) შექმენით კვირის განრიგის ცხრილი შემდეგი სვეტებით: დღე, საგანი და დრო.
+  - ქონდეს 3px border
+  - header იყოს ნაცრისფერი
+  - ტექსტის ზომა იყოს 20px -->
+    <table style="border: solid 3px black; font-size: 20px;">
+        <tr style="background-color: gray;">
+            <th style="border: solid 3px black;">დღე</th>
+            <th style="border: solid 3px black;">ორშაბათი</th>
+            <th style="border: solid 3px black;">სამშაბათი</th>
+            <th style="border: solid 3px black;">ოთხშაბათი</th>
+            <th style="border: solid 3px black;">ხუთშაბათი</th>
+            <th style="border: solid 3px black;">პარასკევი</th>
+            <th style="border: solid 3px black;">შაბათი</th>
+            <th style="border: solid 3px black;">კვირა</th>
+        </tr>
+        <tr>
+            <td style="border: solid 3px black;">საგანი</td>
+            <td style="border: solid 3px black;"></td>
+            <td style="border: solid 3px black;"></td>
+            <td style="border: solid 3px black;"></td>
+            <td style="border: solid 3px black;"></td>
+            <td style="border: solid 3px black;"></td>
+            <td style="border: solid 3px black;"></td>
+            <td style="border: solid 3px black;"></td>
+        </tr>
+        <tr>
+            <td style="border: solid 3px black;">დრო</td>
+            <td style="border: solid 3px black;"></td>
+            <td style="border: solid 3px black;"></td>
+            <td style="border: solid 3px black;"></td>
+            <td style="border: solid 3px black;"></td>
+            <td style="border: solid 3px black;"></td>
+            <td style="border: solid 3px black;"></td>
+            <td style="border: solid 3px black;"></td>
+        </tr>
+    </table>
+    <br><br><br>
+    <!-- 10) შექმენით ცხრილი 5 რიგით.
+  - ყოველი რიგის ფონი იყოს განსხვავებული
+  - ტექსტი გაასწორეთ მარჯვნივ
+  - border იყოს ყვითელი -->
+    <table style="border: solid 3px yellow; font-size: 25px;">
+        <tr style="background-color: aqua;">
+            <th style="text-align: right;">name</th>
+        </tr>
+        <tr style="background-color: aquamarine;">
+            <td style="text-align: right;">nika</td>
+        </tr>
+        <tr style="background-color: blueviolet;">
+            <td style="text-align: right;">gio</td>
+        </tr>
+        <tr style="background-color: burlywood;">
+            <td style="text-align: right;">luka</td>
+        </tr>
+        <tr style="background-color: chartreuse;">
+            <td style="text-align: right;">temo</td>
+        </tr>
+    </table>
+    <br><br>
+    <!-- 11) შექმენით ფასების ცხრილი შემდეგი სვეტებით: პროდუქტი და ფასი.
+მაგალითად:
+  - პური -> 1.3ლ
+  - წყალი -> 2ლ
+  - ხორცი -> 10ლ ;D
+სტილები:
+  - გამოიყენეთ სხვადასხვა font-size
+  - გამოიყენეთ განსხვავებული ტექსტის ფერები -->
+    <table style="border: solid 3px black; font-size: 30px;">
+        <tr>
+            <th style="border: solid 3px black; background-color: aqua;">პროდუქტი</th>
+            <th style="border: solid 3px black; background-color: aqua;">ფასი</th>
+        </tr>
+        <tr>
+            <td style="border: solid 3px black; font-size: 35px;">პური</td>
+            <td style="border: solid 3px black;">1.3ლ</td>
+        </tr>
+        <td style="border: solid 3px black; font-size: 35px;">წყალი</td>
+        <td style="border: solid 3px black;">2ლ</td>
+        </tr>
+        <td style="border: solid 3px black; font-size: 35px;">ხორცი</td>
+        <td style="border: solid 3px black;">10ლ</td>
+        </tr>
+    </table>
+</body>
+
+</html>
