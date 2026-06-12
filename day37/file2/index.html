@@ -1,0 +1,90 @@
+<html>
+<head>
+    <style>
+        p {
+            color: red;
+        }
+
+        .paragraph {
+            color: blue;
+        }
+
+        #demo {
+            color: green;
+        }
+
+        .btn {
+            background-color: navy;
+            color: white;
+            padding: 10px;
+        }
+        h1{
+            color: red;
+        }
+        .heading{
+            color: blue;
+        }
+        #main-title{
+            color: green;
+        }
+        .box{
+            color: blue;
+            background-color: blue;
+        }
+        .text{
+            color: red;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- 7) შექმენით პარაგრაფი.
+   - მიანიჭეთ:
+     - id="demo"
+     - class="paragraph"
+   - CSS-ში გამოიყენეთ:
+     - p
+     - .paragraph
+     - #demo
+   - თითოეულში განსხვავებული color დაწერეთ.
+   - დააკვირდით რომელი ფერი გამოჩნდება საბოლოოდ. -->
+    <p id="demo" class="paragraph">TEXT</p>
+
+    <!-- 8) შექმენით 3 ღილაკი.
+    - ყველას მიანიჭეთ class:
+      - btn
+    - class selector-ის გამოყენებით მიანიჭეთ:
+      - background-color: navy;
+      - color: white;
+      - padding: 10px; -->
+    <button class="btn">CLICK</button>
+    <button class="btn">CLICK</button>
+    <button class="btn">CLICK</button>
+
+    <!-- 9) შექმენით h1.
+    - მიანიჭეთ id:
+      - main-title
+    - ასევე მიანიჭეთ class:
+      - heading
+    - გამოიყენეთ:
+      - h1
+      - .heading
+      - #main-title
+    - თითოეულში განსხვავებული color დაწერეთ.
+    - დააკვირდით რომელი სტილი იმარჯვებს. -->
+    <h1 id="main-title" class="heading">TITLE</h1>
+
+    <!-- 10) შექმენით div, რომლის შიგნით იქნება:
+    - 2 პარაგრაფი
+    - 1 ღილაკი
+    div-ს მიანიჭეთ class:
+    - box
+    - პარაგრაფებს class:
+      - text -->
+      <div class="box">
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quam quas beatae obcaecati iure aut cum officiis illo similique consequuntur! Quod eum eaque doloribus adipisci molestiae nobis qui praesentium repellat!</p>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla laboriosam odit minima cum voluptas beatae atque, quidem id sed consequuntur nemo ad asperiores deleniti animi temporibus architecto ipsum dolorem est.</p>
+        <button>CLICK</button>
+      </div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!-- 1) ახსენით რა არის Tag Selector, Class Selector და ID Selector CSS-ში. მოიყვანეთ თითოეულის მაგალითი. -->
+<!-- tag selector-ყველა ერთნაირ თეგს ანიჭებს ერთნაირ სტილს
+class selector-ირჩევს ყველა ერთნაირი კლასის თეგს და ანიჭებს სტილს
+ID selector-ირჩევს ყველა ერთნაირი ID მქონე თეგს და ანიჭებს სტილს -->
+<html>
+<head>
+    <style>
+        p {
+            color: blue;
+            font-size: 20px;
+        }
+
+        .box {
+            background-color: lightgray;
+            padding: 20px;
+        }
+
+        .p1 {
+            color: green;
+        }
+
+        #title {
+            text-align: center;
+            color: red;
+        }
+
+        #button1 {
+            background-color: aqua;
+        }
+
+        #button2 {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- 2) შექმენით 3 პარაგრაფი.
+    - გამოიყენეთ:
+    - p
+    - ყველა პარაგრაფს მიანიჭეთ:
+    - color: blue;
+    - font-size: 20px; -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quisquam optio nisi, eum dignissimos
+        sapiente expedita eaque error nihil deserunt at veritatis quaerat voluptas delectus impedit nesciunt dolorum
+        aperiam enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero officia repudiandae nobis debitis facere id nulla
+        maiores asperiores laudantium dolor quam, quos, fugiat ducimus fugit molestias repellendus temporibus nesciunt?
+        Accusamus.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum corporis exercitationem ullam accusamus earum
+        rem quia adipisci harum enim, voluptatum quam in velit, fugit dolorem, voluptatem dicta ad! Impedit, voluptates!
+    </p>
+    <!-- 
+    3) შექმენით 2 div.
+   - ორივეს მიანიჭეთ class:
+     - box
+   - class selector-ის გამოყენებით მიანიჭეთ:
+     - background-color: lightgray;
+     - padding: 20px; -->
+    <div class="box">
+        <p>text</p>
+    </div>
+    <div class="box">
+        <p>text</p>
+    </div>
+
+    <!-- 4) შექმენით 3 პარაგრაფი.
+   - ორს მიანიჭეთ class:
+     - text
+   - class selector-ის გამოყენებით მიანიჭეთ:
+     - color: green;
+   - დააკვირდით რომელ პარაგრაფებზე იმოქმედებს სტილი. -->
+    <p class="p1">Text</p>
+    <p class="p1">Text</p>
+    <p>Text</p>
+
+    <!-- 5) შექმენით h1.
+   - მიანიჭეთ id:
+     - title
+   - id selector-ის გამოყენებით მიანიჭეთ:
+     - color: red;
+     - text-align: center; -->
+    <h1 id="title">TITLE</h1>
+
+    <!-- 6) შექმენით 2 ღილაკი.
+   - ერთს მიანიჭეთ id:
+     - button1
+   - მეორეს:
+     - button2
+   - ორივეს განსხვავებული ფონი გაუწერეთ id selector-ის გამოყენებით. -->
+    <button id="button1">CLICK</button>
+    <button id="button2">CLICK</button>
+</body>
+</html>
