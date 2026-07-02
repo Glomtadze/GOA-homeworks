@@ -13,7 +13,7 @@ print(repeat_str(5 , "h"))
 
 # 3--Remove First and Last Character--https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0
 def remove_char(s):
-    new_str=[]
+    new_str=[] 
     if len(s)<2:
         return new_str
     else:
