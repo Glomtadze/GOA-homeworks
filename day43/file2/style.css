@@ -1,0 +1,46 @@
+#title {
+    text-align: center;
+    text-decoration: underline rgb(223, 41, 41);
+    color: rgb(223, 41, 41);
+    font-family: Arial;
+}
+
+#div1 {
+    text-align: center;
+    font-family: Arial;
+    font-size: medium;
+    color: rgb(223, 41, 41);
+}
+
+#body1 {
+    background-image: url(https://cdn.pressebox.de/a/7050f78dd6f95bf7/attachments/1047323.attachment/filename/Bild+Gdynia+-+Battery+trolley+12M+by+the+sea.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#header1 {
+    text-align: center;
+    font-family: Arial;
+    font-size: large;
+}
+
+#a1 {
+    color: rgb(223, 41, 41);
+    text-decoration: underline rgb(223, 41, 41);
+    padding-right: 15px;
+}
+
+#body2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcThr1rpq2UQC9EUcqxrfJ3yfyrq1o91xbfg2ytf2QpaLHLjonZo5pkgCFkNcCeOspBBItQPmBcY3aZRJvE);
+}
+
+#div2 {
+    text-align: center;
+    font-family: cursive;
+    font-size: medium;
+    color: rgb(219, 90, 4);
+}

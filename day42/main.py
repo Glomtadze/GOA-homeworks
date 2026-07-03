@@ -5,14 +5,11 @@
 # გამოიყენება მაშინ როცა შენახული მონაცემები აღარ უნდა შეიცვალოს
 
 # 3) შექმენით ფუნქცია first_and_last(items), რომელიც მიიღებს `tuple`-ს და დააბრუნებს ახალ `tuple`-ს, რომელიც შეიცავს მხოლოდ პირველ და ბოლო ელემენტს.
-def first_and_last(items):
-    return (items[0] , items[-1])
+def first_and_last(items): return (items[0] , items[-1])
 print(first_and_last((1 , 2 , 3 , 4)))
 
 # 4) შექმენით ფუნქცია middle_element(items), რომელიც მიიღებს კენტსიგრძიან tuple-ს და დააბრუნებს მის შუა ელემენტს.
-def middle_element(items):
-    return items[len(items)//2]
-
+def middle_element(items): return items[len(items)//2]
 print(middle_element((1 , 2 , 3 , 4 , 5 , 6 , 7)))
 
 # 5) შექმენით ფუნქცია count_occurrences(items, value), რომელიც მიიღებს tuple-ს და ნებისმიერ მნიშვნელობას, შემდეგ კი დააბრუნებს რამდენჯერ გვხვდება ეს მნიშვნელობა tuple-ში. არ გამოიყენოთ count() მეთოდი.
