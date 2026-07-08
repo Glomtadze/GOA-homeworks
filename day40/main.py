@@ -13,7 +13,7 @@ print(repeat_str(5 , "h"))
 
 # 3--Remove First and Last Character--https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0
 def remove_char(s):
-    new_str=[] 
+    new_str=""
     if len(s)<2:
         return new_str
     else:
@@ -53,4 +53,4 @@ print(litres(5))
 
 # 10--Century From Year--https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097
 def century(year): return (year+99)//100
-print(century(1701))
+print(century(2742))
