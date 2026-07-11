@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+}
+.flaming{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow:0 0 4px rgb(224, 224, 216), 
+    0 -4px 10px rgb(228, 173, 56), 
+    2px -10px 20px rgb(206, 136, 89), 
+    -2px -15px 40px rgb(175, 95, 34);
+}
+.Ghost{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(87, 84, 84);
+    text-shadow: 0 0 2px rgb(95, 91, 91),
+    1.2px -0.3px 0px rgb(58, 57, 57),
+    1.7px -1.5px 1px rgb(78, 77, 77);
+}
+.Vegas{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+        0 0 20px rgb(255, 255, 255), 
+        0 0 10px rgb(233, 104, 168), 
+        0 0 20px rgb(233, 104, 168), 
+        0 0 40px rgb(233, 104, 168);
+}
+.Dracula{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(117, 147, 161);
+    text-shadow: 0.5px 0.7px 1px rgb(152, 152, 238),
+    1px 1px 1px rgb(76, 76, 143),
+    1.4px 1.4px 1px rgb(152, 152, 238),
+    1.6px 1.6px 1px rgb(152, 152, 238),
+    1.8px 1.8px 1px rgb(60, 60, 94),
+    1.9px 2px 1px rgb(49, 49, 79);
+}
+.Outline{
+    text-align: center;
+    color: rgb(75, 74, 74);
+    text-shadow: 0.8px 0px 0px rgb(255, 255, 255),
+    -0.8px 0px 0px rgb(255, 255, 255); 
+}
+.soft{
+    text-align: center;
+    background-color: white;
+    color: rgb(35, 35, 35);
+    font-family: Arial, sans-serif;
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+.Sharp{
+    text-align: center;
+    background-color: rgb(192, 175, 47);
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-shadow: 0.6px 1px 0px rgb(181, 60, 60);
+}
+.Blue{
+    background-color: black;
+    text-align: center;
+    color: rgb(84, 170, 170);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 10px rgb(94, 94, 185);
+}
+.Neon{
+    background-color: black;
+    text-align: center;
+    color: rgb(115, 182, 115);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px rgb(117, 204, 77),
+    0px 0px 5px rgb(117, 204, 77),
+    0px 0px 5px rgb(117, 204, 77);
+}
+.Raised{
+    text-align: center;
+    background-color: rgb(154, 154, 154);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0.3px 0.3px 1px rgb(0, 0, 0),
+    0.4px 0.4px 1px rgb(0, 0, 0);
+}
+.Embossed{
+    text-align: center;
+    background-color: rgb(100, 99, 99);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:-0.3px -0.3px 1px rgb(0, 0, 0),
+    -0.4px -0.4px 1px rgb(0, 0, 0);
+}
+.Fire{
+    color: rgb(228, 228, 227);
+    text-align: center;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow:0px -0.5px 3px rgb(209, 140, 11),
+    0px -0.7px 3px rgb(190, 147, 67),
+    0px -1px 3px rgb(173, 144, 90),
+    0px -1.3px 5px rgb(241, 214, 163);
+}
+.Retro{
+    text-align: center;
+    background-color: rgb(68, 155, 155);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+.Glitch{
+    text-align: center;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: -1px 0px 0px rgb(109, 219, 219),
+    1px 0px 0px rgb(194, 90, 49);
+}
+.Cinematic{
+    text-align: center;
+    background-color: rgb(42, 42, 42);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 0px 2.5px 5px rgb(0, 0, 0);
+}
