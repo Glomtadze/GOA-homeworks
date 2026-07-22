@@ -1,0 +1,40 @@
+.nav1{
+    text-align: center;
+}
+.a{
+    color: aqua;
+    padding-right: 10px;
+}
+#body{
+    background-image: url(https://variety.com/wp-content/uploads/2013/06/the-hobbit-the-desolation-of-smaug-poster.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.h1{
+    text-align: center;
+    font-family: "Tektur", sans-serif;
+    color: rgb(0, 225, 255);
+    font-size: 30px;
+    font-weight: 500;
+}
+.div1{
+    text-align: center;
+    color: rgb(52, 230, 224);
+    font-family: "Tektur", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+#body1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk0XaHSb8op8adzWa4G1GTYEuAWKWi_HEM5bAN-kJLijGesRPG9nKvJ2c&s=10);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.div2{
+    text-align: center;
+    color: rgb(52, 230, 224);
+    font-family: "Tektur", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}

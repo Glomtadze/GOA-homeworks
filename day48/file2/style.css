@@ -1,0 +1,28 @@
+#body{
+    background-color: black;
+}
+.pixel{
+    text-align: center;
+    font-family: "Coral Pixels" , sans-serif;
+    font-size: small;
+}
+.cartoon{
+    text-align: center;
+    font-family:"Short Stack" , sans-serif;
+    color: rgb(234, 234, 85);
+}
+.fantasy{
+    text-align: center;
+    font-family:"UnifrakturMaguntia", sans-serif ;
+    color: rgb(21, 21, 224);
+}
+.futuristic{
+    text-align: center;
+    font-family: "Unica One", sans-serif;
+    color: rgb(74, 204, 204);
+}
+.business{
+    text-align: center;
+    color: rgb(150, 85, 215);
+    font-family: "Google Sans Flex", sans-serif;
+}
