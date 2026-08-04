@@ -1,0 +1,89 @@
+#body{
+    background-color: black;
+}
+.pixel{
+    text-align: center;
+    font-family: "Coral Pixels" , sans-serif;
+    font-size: small;
+}
+.cartoon{
+    text-align: center;
+    font-family:"Short Stack" , sans-serif;
+    color: rgb(234, 234, 85);
+}
+.fantasy{
+    text-align: center;
+    font-family:"UnifrakturMaguntia", sans-serif ;
+    color: rgb(21, 21, 224);
+}
+.futuristic{
+    text-align: center;
+    font-family: "Unica One", sans-serif;
+    color: rgb(74, 204, 204);
+}
+.business{
+    text-align: center;
+    color: rgb(150, 85, 215);
+    font-family: "Google Sans Flex", sans-serif;
+}
+#a1:link{
+    color: red;
+}
+#a2:link{
+    color: rgb(232, 225, 146);
+}
+#a3:link{
+    color: rgb(50, 32, 165);
+}
+#a4:link{
+    color: rgb(145, 189, 227);
+}
+#a5:link{
+    color: rgb(218, 81, 195);
+}
+#a1:visited{
+    color: red;
+}
+#a2:visited{
+    color: rgb(232, 225, 146);
+}
+#a3:visited{
+    color: rgb(50, 32, 165);
+}
+#a4:visited{
+    color: rgb(145, 189, 227);
+}
+#a5:visited{
+    color: rgb(218, 81, 195);
+}
+#a1:hover{
+    color: rgb(238, 214, 119);
+}
+#a2:hover{
+    color: rgb(203, 105, 85);
+}
+#a3:hover{
+    color: rgb(124, 207, 118);
+}
+#a4:hover{
+    color: rgb(23, 5, 115);
+}
+#a5:hover{
+    color: rgb(65, 3, 122);
+}
+#a1:active{
+    color: rgb(112, 213, 62);
+}
+#a2:active{
+    color: rgb(48, 39, 152);
+}
+#a3:active{
+    color: rgb(102, 222, 98);
+}
+#a4:active{
+    color: rgb(222, 217, 187);
+}
+#a5:active{
+    color: rgb(140, 212, 199);
+}
+

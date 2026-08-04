@@ -1,0 +1,63 @@
+.a{
+    text-align: center;
+}
+.a a:link{
+    color: rgb(120, 219, 237);
+}
+.a a:visited{
+    color: rgb(120, 244, 101);
+}
+.a a:hover{
+    color: rgb(29, 29, 233);
+}
+.a a:active{
+    color: rgb(230, 18, 18);
+}
+.nav{
+    text-align: center;
+}
+#a1:link{
+    color: red;
+}
+#a1:hover{
+    color: blue;
+}
+#a1:active{
+    color: pink;
+}
+#a2:link{
+    color: rgb(162, 206, 60);
+}
+#a2:hover{
+    color: rgb(246, 242, 113);
+}
+#a2:active{
+    color: rgb(206, 33, 62);
+}
+#a3:link{
+    color: red;
+}
+#a3:hover{
+    color: rgb(224, 215, 138);
+}
+#a3:active{
+    color: rgb(158, 76, 88);
+}
+#a4:link{
+    color: rgb(85, 216, 105);
+}
+#a4:hover{
+    color: rgb(67, 243, 252);
+}
+#a4:active{
+    color: rgb(104, 17, 128);
+}
+#a5:link{
+    color: rgb(98, 9, 171);
+}
+#a5:hover{
+    color: rgb(128, 123, 24);
+}
+#a5:active{
+    color: rgb(30, 20, 48);
+}

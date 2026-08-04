@@ -1,0 +1,97 @@
+.body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ4f0W1BAGU2mWNU5GAX6NnJnZB4tYS0vQPEkUPOadHkr0rWTc-_G1MDWY&s=10);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#body {
+    background-image: url(https://plus.unsplash.com/premium_photo-1682309543429-6aaa6d792dae?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhcnRzfGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    text-align: center;
+}
+.a1:link {
+    color: red;
+    font-family: "Autour One", system-ui;
+}
+
+.a2:link {
+    color: red;
+    font-family: "Autour One", system-ui;
+}
+
+.a1:visited {
+    color: red;
+    font-family: "Autour One", system-ui;
+}
+
+.a2:visited {
+    color: red;
+    font-family: "Autour One", system-ui;
+}
+
+.a1:hover {
+    color: rgb(110, 247, 140);
+    font-family: "Autour One", system-ui;
+}
+
+.a2:hover {
+    color: rgb(110, 255, 190);
+    font-family: "Autour One", system-ui;
+}
+
+.a1:active {
+    color: rgb(163, 216, 235);
+    font-family: "Autour One", system-ui;
+}
+
+.a2:active {
+    color: rgb(155, 194, 220);
+    font-family: "Autour One", system-ui;
+}
+
+.div1 {
+    font-family: "Autour One", system-ui;
+    text-align: center;
+    color: rgb(158, 83, 42);
+    font-weight: 400;
+}
+.a{
+    padding-right: 10px;
+}
+.a:link{
+    text-align: center;
+    font-family: "Autour One", system-ui;
+    color: red;
+    font-weight: 400;
+}
+.a:visited{
+    text-align: center;
+    font-family: "Autour One", system-ui;
+    color: red;
+    font-weight: 400;
+}
+.a:hover{
+    text-align: center;
+    font-family: "Autour One", system-ui;
+    color: rgb(133, 238, 170);
+    font-weight: 400;
+}
+.a:active{
+    text-align: center;
+    font-family: "Autour One", system-ui;
+    color: rgb(33, 20, 212);
+    font-weight: 400;
+    border: 2px solid red;
+}
+div{
+    text-align: center;
+}
+#h1{
+    text-align: center;
+    color: red;
+}

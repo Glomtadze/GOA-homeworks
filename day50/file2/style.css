@@ -1,0 +1,86 @@
+.nav {
+    text-align: center;
+}
+#a1:link {
+    color: rgb(223, 223, 165);
+    font-family: "Playpen Sans", cursive;
+    border: 3px solid red;
+    text-decoration: none;
+}
+
+#a1:hover {
+    border: 3px solid rgb(221, 235, 66);
+    font-family: "Playpen Sans", cursive;
+    color: red;
+    text-decoration: none;
+}
+
+#a1:active {
+    border: 3px solid rgb(83, 234, 81);
+    font-family: "Playpen Sans", cursive;
+    color: rgb(47, 72, 198);
+    text-decoration: none;
+}
+
+#a1:visited {
+    color: rgb(189, 219, 108);
+    font-family: "Playpen Sans", cursive;
+    border: 3px solid red;
+    text-decoration: none;
+}
+
+#a2:link {
+    color: rgb(223, 223, 165);
+    font-family: "Unica One", sans-serif;
+    border: 3px solid red;
+    text-decoration: none;
+}
+
+#a2:hover {
+    border: 3px solid rgb(221, 235, 66);
+    font-family: "Unica One", sans-serif;
+    color: red;
+    text-decoration: none;
+}
+
+#a2:active {
+    border: 3px solid rgb(83, 234, 81);
+    font-family: "Unica One", sans-serif;
+    color: rgb(47, 72, 198);
+    text-decoration: none;
+}
+
+#a2:visited {
+    color: rgb(189, 219, 108);
+    font-family: "Unica One", sans-serif;
+    border: 3px solid red;
+    text-decoration: none;
+}
+
+#a3:link {
+    color: rgb(223, 223, 165);
+    font-family: "Stack Sans Text", sans-serif;
+    border: 3px solid red;
+    text-decoration: none;
+}
+
+#a3:hover {
+    border: 3px solid rgb(221, 235, 66);
+    font-family: "Stack Sans Text", sans-serif;
+    color: red;
+    text-decoration: none;
+}
+
+#a3:active {
+    border: 3px solid rgb(83, 234, 81);
+    font-family: "Stack Sans Text", sans-serif;
+    color: rgb(47, 72, 198);
+    text-decoration: none;
+}
+
+#a3:visited {
+    color: rgb(189, 219, 108);
+    font-family: "Stack Sans Text", sans-serif;
+    border: 3px solid red;
+    text-decoration: none;
+}

@@ -1,0 +1,84 @@
+.body{
+    background-color: black;
+}
+#a1:link{
+    text-align: center;
+    color: red;
+    font-family: "Stack Sans Text", sans-serif;
+}
+#a2:link{
+    text-align: center;
+    color: rgb(232, 225, 146);
+    font-family: "Stack Sans Text", sans-serif;
+}
+#a3:link{
+    text-align: center;
+    color: rgb(50, 32, 165);
+    font-family: "Stack Sans Text", sans-serif;
+}
+#a4:link{
+    text-align: center;
+    color: rgb(145, 189, 227);
+    font-family: "Stack Sans Text", sans-serif;
+}
+#a5:link{
+    text-align: center;
+    color: rgb(218, 81, 195);
+    font-family: "Stack Sans Text", sans-serif;
+}
+#a6:link{
+    text-align: center;
+    color: rgb(130, 223, 104);
+    font-family: "Stack Sans Text", sans-serif;
+}
+#a1:visited{
+    text-align: center;
+    color: rgb(110, 201, 74);
+    font-family: "Stack Sans Text", sans-serif;
+}
+#a2:visited{
+    text-align: center;
+    color: rgb(192, 63, 34);
+    font-family: "Stack Sans Text", sans-serif;
+}
+#a3:visited{
+    text-align: center;
+    color: rgb(207, 113, 231);
+    font-family: "Stack Sans Text", sans-serif;
+}
+#a4:visited{
+    text-align: center;
+    color: rgb(26, 8, 109);
+    font-family: "Stack Sans Text", sans-serif;
+}
+#a5:visited{
+    text-align: center;
+    color: rgb(137, 198, 220);
+    font-family: "Stack Sans Text", sans-serif;
+}
+#a6:visited{
+    text-align: center;
+    color: rgb(216, 119, 120);
+    font-family: "Stack Sans Text", sans-serif;
+}
+.main:link{
+    text-align: center;
+    color: red;
+    font-family: "Stack Sans Text", sans-serif;
+}
+.main:visited{
+    text-align: center;
+    color: red;
+    font-family: "Stack Sans Text", sans-serif;
+}
+.main:hover{
+    text-align: center;
+    color: greenyellow;
+    font-family: "Stack Sans Text", sans-serif;
+}
+.main:active{
+    text-align: center;
+    color: greenyellow;
+    font-family: "Stack Sans Text", sans-serif;
+    border: 3px solid red;
+}
