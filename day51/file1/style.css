@@ -1,0 +1,110 @@
+#ol1 li:nth-child(even){
+    color: red;
+    background-color: black;
+    border: 2px solid greenyellow;
+}
+#ol1 li:nth-child(odd){
+    color: greenyellow;
+    background-color: brown;
+    border: 2px solid red;
+}
+#ol2 li:first-child{
+    color: red;
+    background-color: black;
+    border: 2px solid blue;
+    font-size: 45px;
+}
+#ol2 li:last-child{
+    color: blue;
+    background-color: red;
+    border: 2px solid greenyellow;
+    font-size: 25px;
+}
+.fruits{
+    list-style: square;
+}
+.animals{
+    list-style: circle;
+}
+.city{
+    list-style: georgian;
+}
+.ul1{
+    list-style-type: square;
+}
+.ul2{
+    list-style-type: circle;
+}
+.ul3{
+    list-style-type: decimal;
+}
+.ul4{
+    list-style-type: upper-roman;
+}
+.ul5{
+    list-style-type: none;
+}
+.products li:nth-child(odd){
+    color: red;
+    background-color: black;
+}
+.products li:nth-child(even){
+    color: greenyellow;
+    background-color: black;
+}
+.products li:first-child{
+    color: aquamarine;
+    background-color: black;
+    border: 2px solid red;
+    list-style-type: upper-roman;
+}
+.products li:last-child{
+    color: blueviolet;
+    background-color: black;
+    border: 2px solid red;
+    list-style-type: upper-roman;
+}
+.students li:nth-child(odd){
+    background-color: black;
+    color: red;
+    list-style-type: upper-roman;
+}
+.students li:nth-child(even){
+    background-color: black;
+    color: greenyellow;
+    list-style-type: upper-roman;
+}
+.students li:first-child{
+    background-color: black;
+    color: aqua;
+    list-style-type: upper-roman;
+}
+.students li:last-child{
+    background-color: black;
+    color: blueviolet;
+    list-style-type: upper-roman;
+}
+.week{
+    list-style-type: upper-roman;
+}
+.week li:first-child{
+    color: blue;
+}
+.week li:nth-child(2){
+    color: blue;
+}
+.week li:nth-child(3){
+    color: blue;
+}
+.week li:nth-child(4){
+    color: blue;
+}
+.week li:nth-child(5){
+    color: blue;
+}
+.week li:nth-child(6){
+    color: red;
+}
+.week li:last-child{
+    color: greenyellow;
+}

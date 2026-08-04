@@ -1,0 +1,195 @@
+<!-- 1) ახსენით რას ნიშნავს :first-child, :last-child და :nth-child -->
+<!-- first-child-ირჩევს ელემენტს რომელიც მშობელი ელემენტის პირველი შვილია, last-child პირიქით ირჩევს ბოლო ელემენტს ხოლო nth-child ით შეგვიძლია ამოვირშიოთ  ჩვენით ის ნომერი რომელი ელემენტიც გვინდა -->
+
+<!-- 2) ახსენით რა განსხვავებაა :first-child და :last-child შორის -->
+<!-- first-child ირჩევს მშობელი ელემენტის პირველივე ელემენტს ხოლო last-child ბოლოს -->
+
+<!-- 3) ახსენით რას ნიშნავს :nth-child(even) და :nth-child(odd) -->
+<!-- nth-child(even) საშუალებით ამოირჩევს ლუწ ინდექსე მყოფ ელემენტებს ხოლო nth-child(odd)-ის საშუალებით კენტ ინდექსე მყოფებს -->
+
+<!-- 4) ახსენით, რომელ ელემენტებს მონიშნავს:
+  - li:nth-child(even)-ამოირჩევს ლუწ ინდექსზე მყოფებს
+  - li:nth-child(odd)-ამოირჩევს კენტ ინდექსზე მყოფებს
+  - li:first-child-ამოირჩევს პირველივე ელემენტს
+  - li:last-child-ამოირჩევს ბოლო ელემენტს -->
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 5) შექმენით სია, რომელშიც იქნება მინიმუმ 10 ელემენტი. გამოიყენეთ:
+    - :nth-child(even)
+    - :nth-child(odd)
+
+    ლუწ და კენტ ელემენტებს უნდა ჰქონდეთ განსხვავებული:
+    - ტექსტის ფერი
+    - ფონის ფერი
+    - ჩარჩო -->
+    <ol id="ol1">
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+    </ol>
+    <br><br>
+    <!-- 6) შექმენით მინიმუმ 8 ელემენტისგან შემდგარი სია. გამოიყენეთ:
+  - :first-child
+  - :last-child
+
+    პირველ და ბოლო ელემენტს უნდა ჰქონდეს ერთმანეთისგან განსხვავებული:
+  - ტექსტის ფერი
+  - ფონის ფერი
+  - ჩარჩო
+  - ზომა -->
+    <ol id="ol2"">
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+    </ol>
+    <br><br>
+    <!-- 7) შექმენით სამი სხვადასხვა სია:
+  - ხილის სია
+  - ცხოველების სია
+  - ქალაქების სია
+
+    თითოეულ სიაში უნდა იყოს მინიმუმ 6 ელემენტი. გამოიყენეთ
+    list-style და თითოეულ სიას შეურჩიეთ განსხვავებული მარკერი -->
+        <ul class=" fruits">
+        <li>apple</li>
+        <li>orange</li>
+        <li>banana</li>
+        <li>watermallon</li>
+        <li>pear</li>
+        <li>grape</li>
+        </ul>
+        <ul class="animals">
+            <li>bear</li>
+            <li>dog</li>
+            <li>cat</li>
+            <li>wolf</li>
+            <li>tiger</li>
+            <li>lion</li>
+        </ul>
+        <ul class="city">
+            <li>kutaisi</li>
+            <li>tbilisi</li>
+            <li>batumi</li>
+            <li>foti</li>
+            <li>zugdidi</li>
+            <li>telavi</li>
+        </ul>
+        <br><br>
+        <!-- 8) შექმენით შემდეგი სტილის სიები:
+    - list-style-type: square
+    - list-style-type: circle
+    - list-style-type: decimal
+    - list-style-type: upper-roman
+    - list-style-type: none
+
+    თითოეულ სიაში განათავსეთ მინიმუმ 5 ელემენტი -->
+        <ul class="ul1">
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+        </ul>
+        <ul class="ul2">
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+        </ul>
+        <ul class="ul3">
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+        </ul>
+        <ul class="ul4">
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+        </ul>
+        <ul class="ul5">
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+            <li>hello</li>
+        </ul>
+        <br><br>
+        <!-- 9) შექმენით პროდუქტების სია, რომელშიც იქნება მინიმუმ 10 პროდუქტი. გამოიყენეთ:
+        - :nth-child(odd) — კენტი პროდუქტებისთვის
+        - :nth-child(even) — ლუწი პროდუქტებისთვის
+        - :first-child — პირველი პროდუქტისთვის
+        - :last-child — ბოლო პროდუქტისთვის
+
+        პირველი და ბოლო პროდუქტი განსაკუთრებულად უნდა იყოს გაფორმებული -->
+        <ul class="products">
+            <li>Laptop</li>
+            <li>Smartphone</li>
+            <li>Headphones</li>
+            <li>Mouse</li>
+            <li>Keyboard</li>
+            <li>Monitor</li>
+            <li>Printer</li>
+            <li>Flash Drive</li>
+            <li>Power Bank</li>
+            <li>Speaker</li>
+        </ul>
+        <br><br>
+        <!-- 10) შექმენით მოსწავლეების სია, რომელშიც იქნება მინიმუმ 12 მოსწავლე. გააფორმეთ:
+    - კენტი მოსწავლეები ერთი სტილით
+    - ლუწი მოსწავლეები მეორე სტილით
+    - პირველი მოსწავლე მესამე სტილით
+    - ბოლო მოსწავლე მეოთხე სტილით -->
+        <ul class="students">
+            <li>nika</li>
+            <li>gio</li>
+            <li>aleqsi</li>
+            <li>beqa</li>
+            <li>goga</li>
+            <li>gabrieli</li>
+            <li>sandro</li>
+            <li>tornike</li>
+            <li>irakli</li>
+            <li>luka</li>
+            <li>dato</li>
+            <li>temo</li>
+        </ul>
+        <br><br>
+    <!-- 11) შექმენით კვირის დღეების სია. გამოიყენეთ:
+    - სამუშაო დღეებისთვის ერთი სტილი
+    - შაბათისა და კვირისთვის განსხვავებული სტილი
+    - პირველი დღისთვის :first-child
+    - ბოლო დღისთვის :last-child -->
+    <ul class="week">
+        <li>ორშაბათი</li>
+        <li>სამშაბათი</li>
+        <li>ოთხშაბათი</li>
+        <li>ხუთშაბათი</li>
+        <li>პარასკევი</li>
+        <li>შაბათი</li>
+        <li>კვირა</li>
+    </ul>
+</body>
+
+</html>
