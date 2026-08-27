@@ -1,0 +1,152 @@
+<!-- 1) ახსენით, რას ნიშნავს box-sizing property და რა გავლენას ახდენს ის ელემენტის ზომის გამოთვლაზე. -->
+<!-- box-sizing property-განსაზღვრავს ელემენტის widths  და  heights -->
+
+<!-- 2) ახსენით, რა განსხვავებაა შემდეგ ორ მნიშვნელობას შორის:
+   - box-sizing: content-box-არის მხოლოდ კონტენტის ზომის გამსაზღვრელი;
+   - box-sizing: border-box-განსაზღვრავს ელემენტის საბოლოო ზომას; -->
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 3) შექმენით div, რომელსაც ექნება:
+   - width: 300px;
+   - height: 150px;
+   - padding: 20px;
+   - border: 5px solid;
+
+   თავდაპირველად გამოიყენეთ:
+   - box-sizing: content-box;
+
+   შემდეგ შეცვალეთ:
+   - box-sizing: border-box;
+
+   ახსენით, როგორ შეიცვალა ელემენტის საბოლოო ზომა. -->
+    <div class="div1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione reiciendis esse id reprehenderit neque,
+            repellendus at dolor soluta voluptate aperiam blanditiis exercitationem inventore quia, fuga repudiandae
+            sequi odio. Nisi, nam!</p>
+    </div>
+    <br><br>
+
+    <!-- 4) შექმენით ორი ერთნაირი div.
+
+   ორივეს მიანიჭეთ:
+   - width: 300px;
+   - height: 200px;
+   - padding: 20px;
+   - border: 5px solid;
+
+   - პირველ div-ს გამოიყენეთ box-sizing: content-box;
+   - მეორე div-ს გამოიყენეთ box-sizing: border-box;
+
+   შეადარეთ მათი საბოლოო სიგანე და სიმაღლე. -->
+    <div class="div" id="div1">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias aperiam illo quia quasi modi consequatur
+            aliquid optio. Illum laborum, earum rem ex eaque distinctio commodi quidem maiores quasi. Aliquid,
+            reprehenderit?</p>
+    </div>
+    <div class="div" id="div2">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil aliquam quam nobis maiores eveniet unde,
+            deserunt ut animi neque magnam consequatur distinctio a. Ut nihil distinctio quidem doloremque blanditiis
+            cumque?</p>
+    </div>
+    <br><br><br>
+
+    <!-- 5) ახსენით, რა ნაწილებისგან შედგება CSS box model:
+
+   - content-ელემენტის მთავარი შიგთავსი მაგალითად ფოტო ან ტექსტი
+   - padding-დაშორება კონტენტსა და ბორდერს შორის
+   - border-ჩარჩო რომელიც შემოსაზღვრავს კონტენტს და პადინგს
+   - margin-დაშორება ბორდერიდან სხვა ელემენტამდე
+
+   ასევე ახსენით, რომელი ნაწილები შედის ელემენტის width-სა და height-ში content-box და border-box შემთხვევებში. 
+
+   content-box-ში შედის მხოლოდ კონტენტი
+   border-box-ში შედის კონტენტიც პადინგიც და ბორდერიც-->
+
+    <!-- 6) შექმენით სამი div, რომელთა სიგანე იქნება 300px.
+
+   - პირველს გამოიყენეთ box-sizing: content-box;
+   - მეორეს გამოიყენეთ box-sizing: border-box;
+   - მესამეს საერთოდ არ მიუთითოთ box-sizing.
+
+   თითოეულს დაუმატეთ განსხვავებული padding და border.
+
+   ახსენით, რომელი ელემენტის საბოლოო ზომა განსხვავდება და რატომ. -->
+    <div class="div2">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, at adipisci! Pariatur sint in aperiam
+            dicta cum. Aliquam quasi unde vitae, ipsa nostrum quisquam sit earum itaque maxime asperiores quam!</p>
+    </div>
+    <div class="div3">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque veritatis facilis vero explicabo accusantium
+            ipsam totam doloremque iusto, expedita et? Explicabo cupiditate eum odio optio, consequatur earum quos
+            provident tempora?</p>
+    </div>
+    <div class="div4">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, esse tempore animi dicta dignissimos quia
+            doloribus impedit fuga quas ab vel? Eum facere nostrum quasi sint numquam aliquam quo ex.</p>
+    </div>
+    <br><br><br>
+
+    <!-- 7) შექმენით ფორმა, რომელშიც იქნება:
+
+   - სახელის ველი — type=text
+   - გვარის ველი — type=text
+   - ელფოსტის ველი — type=email
+   - პაროლის ველი — type=password
+   - გაგზავნის ღილაკი — type=submit
+
+   გამოიყენეთ input[type=text] და მხოლოდ ტექსტურ ველებზე დააყენეთ:
+
+   - width: 300px;
+   - padding: 15px;
+   - border: 3px solid;
+   - box-sizing: border-box; -->
+    <form>
+        <input type="text" placeholder="name">
+        <br>
+        <input type="text" placeholder="lastname">
+        <br>
+        <input type="email" placeholder="email">
+        <br>
+        <input type="password" placeholder="password">
+        <br>
+        <input type="submit">
+    </form>
+    <br><br><br>
+
+    <!-- 8) შექმენით div, რომლის სიგანე იქნება 400px.
+
+   გამოიყენეთ:
+   - padding: 30px;
+   - border: 10px solid;
+   - box-sizing: border-box;
+
+   შეამოწმეთ ბრაუზერში ელემენტის საბოლოო სიგანე და ახსენით, რატომ რჩება ის 400px-->
+    <div class="div5">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis, quos? Fuga placeat ullam vero ducimus
+            quasi at? Possimus totam, dolor explicabo exercitationem iste quisquam, repellat officiis tempore corporis
+            tenetur cumque?</p>
+    </div>
+    <br><br><br>
+    <!-- 9) შექმენით ორი ტექსტური ველი, რომელთა სიგანე იქნება 100%.
+
+   ორივეს დაუმატეთ:
+   - padding: 15px;
+   - border: 3px solid;
+
+   - პირველ ველს გამოიყენეთ box-sizing: content-box;
+   - მეორე ველს გამოიყენეთ box-sizing: border-box;
+
+   ახსენით, რატომ შეიძლება პირველი ველი მშობელი ელემენტის სიგანეს გადააჭარბოს, ხოლო მეორე — არა. -->
+    <form>
+        <input type="text" class="input" id="inp1">
+        <input type="text" class="input" id="inp2">
+    </form>
+
+</body>
+
+</html>
