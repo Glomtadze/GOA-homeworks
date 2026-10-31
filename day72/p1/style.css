@@ -1,0 +1,23 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.box{
+  width:200px;
+  height:200px;
+  background-color: blue;
+  animation-name: bluesquare;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes bluesquare{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(1350px);
+  }
+}

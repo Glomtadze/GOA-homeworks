@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.box{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: #fba419;
+}
+.child{
+    position: absolute;
+    width: 240px;
+    height: 90px;
+    background-color: #f474de;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+#child-01{
+    top: 100px;
+    left: 20px;
+}
+#child-02{
+    top: 450px;
+    right: 80px;
+    background-color: #f47ee0;
+}
+#child-03{
+    top: 100px;
+    right: 20px;
+}

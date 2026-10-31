@@ -1,0 +1,6 @@
+let heading=document.getElementById("h1")
+let par=document.getElementById("p")
+let image=document.getElementById("img")
+console.log(heading)
+console.log(par)
+console.log(image)

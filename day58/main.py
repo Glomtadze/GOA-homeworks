@@ -10,11 +10,11 @@ def round_to_next5(n):
 # 3) https://www.codewars.com/kata/57a049e253ba33ac5e000212
 def factorial(n):
     i=1
-    sum=1
+    res=1
     while i<=n:
-        sum=sum*i
+        res=res*i
         i=i+1
-    return sum
+    return res
 
 # 4) https://www.codewars.com/kata/5abd66a5ccfd1130b30000a9
 def row_weights(array):

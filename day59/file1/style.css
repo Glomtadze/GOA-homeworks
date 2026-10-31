@@ -1,0 +1,89 @@
+.span1{
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    background-color: brown;
+    display: inline;
+}
+.span2{
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    background-color: greenyellow;
+    display: inline-block;
+}
+.span3{
+    width: 150px;
+    height: 100px;
+    padding: 20px;
+    background-color: cyan;
+    display: block;
+}
+
+.div1{
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    display: inline-block;
+}
+.div2{
+    width: 150px;
+    height: 100px;
+    background-color: greenyellow;
+    margin: 10px;
+    display: inline-block;
+}
+.div3{
+    width: 150px;
+    height: 100px;
+    background-color: cyan;
+    margin: 10px;
+    display: inline-block;
+}
+
+.div4{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: red;
+}
+.div5{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: cyan;
+}
+.div6{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: greenyellow;
+}
+.div7{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: yellow;
+}
+
+.div8{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    background-color: red;
+    display: inline;
+}
+.div9{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    background-color: cyan;
+    display: inline-block;
+}

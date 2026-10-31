@@ -1,0 +1,29 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: orange;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.div{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(208, 100, 240);
+    border: 5px solid white;
+    border-radius: 5px;
+}
+#div2{
+    position: absolute;
+    top: 150px;
+    left: 655px;
+    border: 7px solid rgb(104, 3, 104);
+}

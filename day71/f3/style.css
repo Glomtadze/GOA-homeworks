@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: width 7s, height 7s, background-color 7s, transform 7s;
+}
+.box:hover {
+    width: 400px;
+    height: 400px;
+    transform: rotate(50deg);
+    background-color: rgb(172, 223, 237);
+}
