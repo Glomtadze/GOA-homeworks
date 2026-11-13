@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 375px;
+    min-height: 100vh;
+}
+
+.header {
+    padding: 40px 24px 0 24px;
+}
+
+.div {
+    padding: 64px 24px 0 24px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #191826;
+}
+
+.card {
+    background-color: rgb(250, 116, 83);
+    color: white;
+    width: 100%;
+    max-width: 100%;
+    padding: 48px 36px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.title2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+}
+
+.desc {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 0 32px 0;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.price {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.month {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 56px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn2 {
+    width: 17px;
+    height: 20px;
+}
+
+#btn-i {
+    background-color: black;
+    color: white;
+}
+
+#btn-a {
+    background-color: white;
+    color: black;
+}
+
+.last-cont {
+    background-color: white;
+    width: 100%;
+    padding: 40px 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.h2 {
+    font-size: 32px;
+}
+
+.last-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(25, 24, 38);
+}
+
+.email {
+    font-weight: 700;
+}
+
+.photos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 768px;
+        position: relative;
+        padding: 0 39px;
+    }
+
+    .header {
+        padding: 62px 0 0 0;
+    }
+
+    .div {
+        padding: 95px 0 0 0;
+        max-width: 520px;
+    }
+
+    .title {
+        font-size: 64px;
+        margin-bottom: 28px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .card {
+        width: 399px;
+        padding: 48px;
+        margin-top: 150px;
+        margin-left: auto;
+        margin-right: 58px;
+    }
+
+    .last-cont {
+        padding: 87px 0 85px 0;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .last-text {
+        max-width: 366px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1110px;
+        padding: 0;
+    }
+
+    .header {
+        padding-top: 62px;
+    }
+
+    .div {
+        padding-top: 127px;
+        max-width: 825px;
+    }
+
+    .title {
+        font-size: 88px;
+        margin-bottom: 40px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .card {
+        width: 446px;
+        padding: 58px 54px 48px 54px;
+        margin-top: 200px;
+        margin-right: 95px;
+    }
+
+    .title2 {
+        font-size: 40px;
+        margin-bottom: 22px;
+    }
+
+    .desc {
+        font-size: 20px;
+        margin-bottom: 39px;
+    }
+
+    .box {
+        margin-bottom: 46px;
+    }
+
+    .price {
+        font-size: 65px;
+    }
+
+    .month {
+        font-size: 20px;
+    }
+
+    .last-cont {
+        padding: 115px 0 91px 0;
+    }
+
+    .last-cont h2 {
+        width: auto;
+        margin-right: 138px;
+    }
+
+    .photos {
+        align-items: center;
+    }
+}
