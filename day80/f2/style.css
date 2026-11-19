@@ -201,7 +201,7 @@ body {
 
     .div {
         padding-top: 127px;
-        max-width: 825px;
+        max-width: 1015px;
     }
 
     .title {
@@ -211,6 +211,7 @@ body {
 
     .text {
         font-size: 20px;
+        width: 825px;
     }
 
     .card {

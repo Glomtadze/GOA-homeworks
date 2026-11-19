@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 1)1. ტექსტის შეცვლა
+
+    შექმენი HTML-ში ერთი პარაგრაფი და ერთი ღილაკი.
+    ღილაკზე დაჭერისას პარაგრაფის ტექსტი შეიცვალოს.
+    ახალი ტექსტი იყოს: "Hello, JavaScript!" -->
+    <p id="par1">hello</p>
+    <button id="btn1">click</button>
+    <br>
+    <!-- 2) შექმენი პარაგრაფი და ღილაკი.
+    ღილაკზე დაჭერისას პარაგრაფი დაიმალოს.
+    გამოიყენე style.display -->
+    <p id="par2">hello</p>
+    <button id="btn2">click</button>
+    <br>
+    <!-- 3) შექმენი პარაგრაფი და ღილაკი.
+    პირველ დაჭერაზე პარაგრაფი დაიმალოს.
+    მეორე დაჭერაზე ისევ გამოჩნდეს.
+    გამოიყენე if/else. -->
+    <p id="par3">hello</p>
+    <button id="btn3">click</button>
+    <br>
+    <!-- 4) შექმენი ერთი div ელემენტი და ღილაკი.
+    ღილაკზე დაჭერისას div-ის ფონი გახდეს ლურჯი.
+    მეორე დაჭერაზე გახდეს ყვითელი. -->
+    <div id="div1" style="width: 150px; height: 150px; background-color: gray;"></div>
+    <button id="btn4">click</button>
+    <br>
+    <!-- 5) შექმენი Like ღილაკი და პარაგრაფი, სადაც გამოჩნდება მოწონებების რაოდენობა.
+    ყოველ დაჭერაზე Like-ების რაოდენობა გაიზარდოს ერთით.
+    რაოდენობა დაიწყოს 0-დან. -->
+    <button id="btn5">like</button>
+    <p id="par4">0</p>
+    <br><br><br>
+    <!-- 6) შექმენი ვებგვერდი სათაურით, პარაგრაფით და ღილაკით.
+    ღილაკზე დაჭერისას გვერდის ფონი გახდეს შავი.
+    ტექსტის ფერი გახდეს თეთრი.
+    მეორე დაჭერაზე ყველაფერი დაუბრუნდეს საწყის მდგომარეობას. -->
+    <div id="box" style="width: 150px; height: 150px;">
+        <h1 id="h1">title</h1>
+        <p id="par5">hello</p>
+        <button id="btn6">click</button>
+    </div>
+    <br>
+    <!-- 7) შექმენი სურათი და ღილაკი.
+    ღილაკზე დაჭერისას სურათი შეიცვალოს სხვა სურათით.
+    გამოიყენე src ატრიბუტი. -->
+    <img src="https://images.unsplash.com/photo-1795081849247-d59465315a65?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+        id="img1" width="150px">
+    <button id="btn7">click</button>
+    <br>
+    <!-- 8) შექმენი სამი ღილაკი:
+    Increase
+    Decrease
+    Reset
+    შექმენი პარაგრაფი, რომელშიც გამოჩნდება რიცხვი.
+    Increase ზრდის რიცხვს ერთით.
+    Decrease ამცირებს რიცხვს ერთით.
+    Reset აბრუნებს რიცხვს 0-ზე. -->
+    <p id="par6">0</p>
+    <button id="btn8">increase</button>
+    <button id="btn9">decrease</button>
+    <button id="btn10">reset</button>
+    <br>
+    <!-- 9) შექმენი პარაგრაფი და ორი ღილაკი:
+    Increase Font
+    Decrease Font
+    პირველი ღილაკი ზრდის ტექსტის ზომას 2px-ით, მეორე ამცირებს 2px-ით. -->
+    <p id="par7">font</p>
+    <button id="btn11">Increase Font</button>
+    <button id="btn12">Decrease Font</button>
+    <br><br>
+    <!-- 10) შექმენი სამი კითხვა და თითოეულ კითხვას დაუმატე პასუხი.
+    პასუხები თავდაპირველად დამალული უნდა იყოს.
+    კითხვაზე დაჭერისას შესაბამისი პასუხი გამოჩნდეს.
+    ხელახლა დაჭერისას დაიმალოს. -->
+    <div class="div1">
+        <button id="btn13">question1</button>
+        <p id="par8" style="display: none;">answer1</p>
+    </div>
+    <div class="div2">
+        <button id="btn14">question2</button>
+        <p id="par9" style="display: none;">answer2</p>
+    </div>
+    <div class="div3">
+        <button id="btn15">question3</button>
+        <p id="par10" style="display: none;">answer3</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
